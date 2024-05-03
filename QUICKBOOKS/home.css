@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*
+colors
+button-blue: #0d333f
+header-lightgreen: #0fd46c
+text-button black - #393a3d
+button green - #393a3d
+*/
+
+#home-page{
+    background: #eeeeee;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background: #0fd46c;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.first-header h1{
+    font-size: 2rem;
+    font-weight: 900;
+    color:#0d333f;
+    letter-spacing: 1px;
+}
+
+.first-header button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #eeeeee;
+    background-color: #0d333f;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+
+.second-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.second-header img{
+    width: 25%;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 4rem;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #393a3d;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.main{
+    padding: 3rem 8rem;
+}
+
+.content{
+    display: flex;
+    gap: 6rem;
+}
+
+.text-content{
+    width: 45%;
+}
+
+.small-title{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #393a3d;
+    margin-bottom: 10px;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #393a3d;
+    margin-bottom: 20px;
+}
+
+.sub-title{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #393a3d;
+    margin-bottom: 10px;
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+    padding: 3rem 0;
+}
+
+.button{
+    font-size: 0.9rem;
+    padding: 8px 20px;
+    color: #eeeeee;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.black{
+    background: #393a3d;
+}
+
+.green{
+    background-color:#0e8900;
+}
+
+.home-image img{
+    width: 95%;
+}
